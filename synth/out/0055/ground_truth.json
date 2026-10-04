@@ -1,0 +1,33 @@
+{
+  "invoice_number": "BL-2025-1466",
+  "date": "2025-06-10",
+  "line_items": [
+    {
+      "description": "گھی",
+      "quantity": 35.0,
+      "unit_price": 81.0,
+      "line_total": 2835.0
+    },
+    {
+      "description": "آٹا",
+      "quantity": 27.0,
+      "unit_price": 365.0,
+      "line_total": 9855.0
+    },
+    {
+      "description": "شربت",
+      "quantity": 26.0,
+      "unit_price": 386.0,
+      "line_total": 10036.0
+    },
+    {
+      "description": "ٹماٹر",
+      "quantity": 19.0,
+      "unit_price": 23.0,
+      "line_total": 437.0
+    }
+  ],
+  "subtotal": 23163.0,
+  "tax": null,
+  "total": 23163.0
+}

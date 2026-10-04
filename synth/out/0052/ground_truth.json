@@ -1,0 +1,33 @@
+{
+  "invoice_number": "BL-2025-9464",
+  "date": "2025-05-21",
+  "line_items": [
+    {
+      "description": "پائپ",
+      "quantity": 4.0,
+      "unit_price": 354.0,
+      "line_total": 1416.0
+    },
+    {
+      "description": "دال مسور",
+      "quantity": 40.0,
+      "unit_price": 783.0,
+      "line_total": 31320.0
+    },
+    {
+      "description": "تیل",
+      "quantity": 16.0,
+      "unit_price": 360.25,
+      "line_total": 5764.0
+    },
+    {
+      "description": "دال مسور",
+      "quantity": 2.0,
+      "unit_price": 862.0,
+      "line_total": 1724.0
+    }
+  ],
+  "subtotal": 40224.0,
+  "tax": 6838.08,
+  "total": 47062.08
+}

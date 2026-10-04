@@ -1,0 +1,27 @@
+{
+  "invoice_number": "BL-2024-0267",
+  "date": "2024-01-04",
+  "line_items": [
+    {
+      "description": "پیچ",
+      "quantity": 11.0,
+      "unit_price": 6.0,
+      "line_total": 66.0
+    },
+    {
+      "description": "آئینہ",
+      "quantity": 13.0,
+      "unit_price": 275.0,
+      "line_total": 3575.0
+    },
+    {
+      "description": "ڈبل ٹیپ",
+      "quantity": 20.0,
+      "unit_price": 142.25,
+      "line_total": 2845.0
+    }
+  ],
+  "subtotal": 6486.0,
+  "tax": 1037.76,
+  "total": 7523.76
+}

@@ -1,0 +1,27 @@
+{
+  "invoice_number": "BL-2025-7350",
+  "date": "2025-12-27",
+  "line_items": [
+    {
+      "description": "رنگ",
+      "quantity": 6.0,
+      "unit_price": 112.25,
+      "line_total": 673.5
+    },
+    {
+      "description": "بینڈ اسٹریپ",
+      "quantity": 39.0,
+      "unit_price": 232.0,
+      "line_total": 9048.0
+    },
+    {
+      "description": "پتاتس",
+      "quantity": 19.0,
+      "unit_price": 64.25,
+      "line_total": 1220.75
+    }
+  ],
+  "subtotal": 10942.25,
+  "tax": 1860.18,
+  "total": 12802.43
+}

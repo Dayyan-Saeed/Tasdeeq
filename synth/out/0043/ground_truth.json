@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-2025-7499",
+  "date": "2025-11-06",
+  "line_items": [
+    {
+      "description": "چائے",
+      "quantity": 19.0,
+      "unit_price": 104.25,
+      "line_total": 1980.75
+    },
+    {
+      "description": "وال ویش",
+      "quantity": 20.0,
+      "unit_price": 1117.0,
+      "line_total": 22340.0
+    },
+    {
+      "description": "ٹماٹر",
+      "quantity": 17.0,
+      "unit_price": 333.25,
+      "line_total": 5665.25
+    }
+  ],
+  "subtotal": 29986.0,
+  "tax": 4797.76,
+  "total": 34783.76
+}

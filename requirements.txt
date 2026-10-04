@@ -1,0 +1,23 @@
+# Core
+pytest==9.1.1
+Pillow==12.3.0
+numpy>=2.0,<3  # Colab pins numba to numpy<2.3; avoid forcing a downgrade there
+
+# Shaping (synthetic data generation only)
+uharfbuzz==0.56.2
+freetype-py==2.5.1
+
+# Engines B/B-2
+easyocr==1.7.2
+opencv-python-headless==5.0.0.93
+pytesseract==0.3.13
+
+# Engine A (Qaari / Qwen2-VL) - torch intentionally omitted so Colab keeps
+# its preinstalled CUDA build; local CPU users: pip install torch
+transformers==5.18.0
+peft==0.21.2
+accelerate==1.15.0
+qwen-vl-utils==0.0.14
+
+# App
+gradio==6.29.0

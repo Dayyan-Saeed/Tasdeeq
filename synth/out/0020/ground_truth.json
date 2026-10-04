@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-2025-8057",
+  "date": "2025-05-06",
+  "line_items": [
+    {
+      "description": "چائے",
+      "quantity": 31.0,
+      "unit_price": 687.0,
+      "line_total": 21297.0
+    },
+    {
+      "description": "پیچ",
+      "quantity": 7.0,
+      "unit_price": 680.0,
+      "line_total": 4760.0
+    },
+    {
+      "description": "آٹا",
+      "quantity": 32.0,
+      "unit_price": 207.75,
+      "line_total": 6648.0
+    }
+  ],
+  "subtotal": 32705.0,
+  "tax": 5559.85,
+  "total": 38264.85
+}

@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2024-8234",
+  "date": "2024-11-04",
+  "line_items": [
+    {
+      "description": "بسکٹ",
+      "quantity": 8.0,
+      "unit_price": 609.0,
+      "line_total": 4872.0
+    },
+    {
+      "description": "دال مسور",
+      "quantity": 40.0,
+      "unit_price": 70.5,
+      "line_total": 2820.0
+    },
+    {
+      "description": "بسکٹ",
+      "quantity": 30.0,
+      "unit_price": 1245.0,
+      "line_total": 37350.0
+    },
+    {
+      "description": "بینڈ اسٹریپ",
+      "quantity": 27.0,
+      "unit_price": 969.0,
+      "line_total": 26163.0
+    },
+    {
+      "description": "بینڈ اسٹریپ",
+      "quantity": 35.0,
+      "unit_price": 452.0,
+      "line_total": 15820.0
+    }
+  ],
+  "subtotal": 87025.0,
+  "tax": 11313.25,
+  "total": 98338.25
+}

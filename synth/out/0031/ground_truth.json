@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2025-1583",
+  "date": "2025-02-03",
+  "line_items": [
+    {
+      "description": "رنگ",
+      "quantity": 9.0,
+      "unit_price": 1206.0,
+      "line_total": 10854.0
+    },
+    {
+      "description": "پیچ",
+      "quantity": 36.0,
+      "unit_price": 255.0,
+      "line_total": 9180.0
+    },
+    {
+      "description": "مسک",
+      "quantity": 23.0,
+      "unit_price": 871.0,
+      "line_total": 20033.0
+    },
+    {
+      "description": "ٹماٹر",
+      "quantity": 4.0,
+      "unit_price": 1234.0,
+      "line_total": 4936.0
+    },
+    {
+      "description": "دال مسور",
+      "quantity": 23.0,
+      "unit_price": 261.25,
+      "line_total": 6008.75
+    }
+  ],
+  "subtotal": 51011.75,
+  "tax": 6631.53,
+  "total": 57643.28
+}

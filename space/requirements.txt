@@ -1,0 +1,14 @@
+# HF Space requirements.
+# gradio, spaces, huggingface_hub and torch are platform-provided — never list
+# them here. pandas ships with gradio. torchvision is NOT preinstalled; left
+# unpinned so pip resolves it against the installed torch.
+torchvision
+Pillow
+numpy>=2.0,<3
+easyocr==1.7.2
+opencv-python-headless==5.0.0.93
+pytesseract==0.3.13
+transformers==5.18.0
+peft==0.21.2
+accelerate==1.15.0
+qwen-vl-utils==0.0.14

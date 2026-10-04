@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2025-4041",
+  "date": "2025-05-16",
+  "line_items": [
+    {
+      "description": "دال چنا",
+      "quantity": 39.0,
+      "unit_price": 942.0,
+      "line_total": 36738.0
+    },
+    {
+      "description": "چائے",
+      "quantity": 9.0,
+      "unit_price": 815.0,
+      "line_total": 7335.0
+    },
+    {
+      "description": "نٹ",
+      "quantity": 40.0,
+      "unit_price": 679.0,
+      "line_total": 27160.0
+    },
+    {
+      "description": "پینچس",
+      "quantity": 22.0,
+      "unit_price": 1338.0,
+      "line_total": 29436.0
+    },
+    {
+      "description": "کیپسول",
+      "quantity": 9.0,
+      "unit_price": 1240.0,
+      "line_total": 11160.0
+    },
+    {
+      "description": "دودھ",
+      "quantity": 13.0,
+      "unit_price": 368.0,
+      "line_total": 4784.0
+    }
+  ],
+  "subtotal": 116613.0,
+  "tax": 18658.08,
+  "total": 135271.08
+}

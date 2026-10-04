@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-2024-5621",
+  "date": "2024-05-02",
+  "line_items": [
+    {
+      "description": "پائپ",
+      "quantity": 11.0,
+      "unit_price": 504.0,
+      "line_total": 5544.0
+    },
+    {
+      "description": "رنگ",
+      "quantity": 12.0,
+      "unit_price": 682.0,
+      "line_total": 8184.0
+    },
+    {
+      "description": "کریم",
+      "quantity": 28.0,
+      "unit_price": 479.0,
+      "line_total": 13412.0
+    }
+  ],
+  "subtotal": 27140.0,
+  "tax": 4613.8,
+  "total": 31753.8
+}

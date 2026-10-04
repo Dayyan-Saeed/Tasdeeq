@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-2024-2530",
+  "date": "2024-09-15",
+  "line_items": [
+    {
+      "description": "چائے",
+      "quantity": 31.0,
+      "unit_price": 547.0,
+      "line_total": 16957.0
+    },
+    {
+      "description": "چاول",
+      "quantity": 40.0,
+      "unit_price": 1335.0,
+      "line_total": 53400.0
+    },
+    {
+      "description": "دودھ",
+      "quantity": 22.0,
+      "unit_price": 1097.0,
+      "line_total": 24134.0
+    }
+  ],
+  "subtotal": 94491.0,
+  "tax": 15118.56,
+  "total": 109609.56
+}

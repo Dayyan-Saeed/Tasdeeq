@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2024-9288",
+  "date": "2024-08-15",
+  "line_items": [
+    {
+      "description": "آئینہ",
+      "quantity": 24.0,
+      "unit_price": 397.25,
+      "line_total": 9534.0
+    },
+    {
+      "description": "پتاتس",
+      "quantity": 37.0,
+      "unit_price": 241.0,
+      "line_total": 8917.0
+    },
+    {
+      "description": "آٹا",
+      "quantity": 33.0,
+      "unit_price": 8.25,
+      "line_total": 272.25
+    },
+    {
+      "description": "گھی",
+      "quantity": 31.0,
+      "unit_price": 312.0,
+      "line_total": 9672.0
+    }
+  ],
+  "subtotal": 28395.25,
+  "tax": null,
+  "total": 28395.25
+}

@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2025-4326",
+  "date": "2025-05-20",
+  "line_items": [
+    {
+      "description": "چاول",
+      "quantity": 17.0,
+      "unit_price": 109.0,
+      "line_total": 1853.0
+    },
+    {
+      "description": "چینی",
+      "quantity": 28.0,
+      "unit_price": 95.0,
+      "line_total": 2660.0
+    },
+    {
+      "description": "پیاز",
+      "quantity": 22.0,
+      "unit_price": 1309.0,
+      "line_total": 28798.0
+    },
+    {
+      "description": "کیپسول",
+      "quantity": 11.0,
+      "unit_price": 1134.0,
+      "line_total": 12474.0
+    },
+    {
+      "description": "چاول",
+      "quantity": 28.0,
+      "unit_price": 234.0,
+      "line_total": 6552.0
+    },
+    {
+      "description": "ہتھوڑا",
+      "quantity": 10.0,
+      "unit_price": 761.0,
+      "line_total": 7610.0
+    }
+  ],
+  "subtotal": 59947.0,
+  "tax": null,
+  "total": 59947.0
+}

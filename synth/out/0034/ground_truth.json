@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2024-6230",
+  "date": "2024-01-16",
+  "line_items": [
+    {
+      "description": "کریم",
+      "quantity": 33.0,
+      "unit_price": 1373.0,
+      "line_total": 45309.0
+    },
+    {
+      "description": "پیچ",
+      "quantity": 23.0,
+      "unit_price": 381.25,
+      "line_total": 8768.75
+    },
+    {
+      "description": "مسک",
+      "quantity": 2.0,
+      "unit_price": 164.0,
+      "line_total": 328.0
+    },
+    {
+      "description": "دودھ",
+      "quantity": 21.0,
+      "unit_price": 1179.0,
+      "line_total": 24759.0
+    }
+  ],
+  "subtotal": 79164.75,
+  "tax": 10291.42,
+  "total": 89456.17
+}

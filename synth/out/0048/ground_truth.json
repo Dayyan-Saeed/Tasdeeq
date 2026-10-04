@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2024-9915",
+  "date": "2024-10-19",
+  "line_items": [
+    {
+      "description": "آٹا",
+      "quantity": 37.0,
+      "unit_price": 16.25,
+      "line_total": 601.25
+    },
+    {
+      "description": "پیچ",
+      "quantity": 37.0,
+      "unit_price": 109.75,
+      "line_total": 4060.75
+    },
+    {
+      "description": "آئینہ",
+      "quantity": 40.0,
+      "unit_price": 1024.0,
+      "line_total": 40960.0
+    },
+    {
+      "description": "پتاتس",
+      "quantity": 35.0,
+      "unit_price": 156.5,
+      "line_total": 5477.5
+    },
+    {
+      "description": "آٹا",
+      "quantity": 26.0,
+      "unit_price": 39.75,
+      "line_total": 1033.5
+    }
+  ],
+  "subtotal": 52133.0,
+  "tax": 6777.29,
+  "total": 58910.29
+}

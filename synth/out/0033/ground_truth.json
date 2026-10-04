@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2024-1337",
+  "date": "2024-01-05",
+  "line_items": [
+    {
+      "description": "پینچس",
+      "quantity": 29.0,
+      "unit_price": 999.0,
+      "line_total": 28971.0
+    },
+    {
+      "description": "بینڈ اسٹریپ",
+      "quantity": 29.0,
+      "unit_price": 446.0,
+      "line_total": 12934.0
+    },
+    {
+      "description": "ٹماٹر",
+      "quantity": 33.0,
+      "unit_price": 222.25,
+      "line_total": 7334.25
+    },
+    {
+      "description": "ٹماٹر",
+      "quantity": 38.0,
+      "unit_price": 1371.0,
+      "line_total": 52098.0
+    },
+    {
+      "description": "چینی",
+      "quantity": 3.0,
+      "unit_price": 308.25,
+      "line_total": 924.75
+    }
+  ],
+  "subtotal": 102262.0,
+  "tax": 13294.06,
+  "total": 115556.06
+}

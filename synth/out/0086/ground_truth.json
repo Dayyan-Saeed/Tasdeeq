@@ -1,0 +1,33 @@
+{
+  "invoice_number": "BL-2025-9109",
+  "date": "2025-03-01",
+  "line_items": [
+    {
+      "description": "دال چنا",
+      "quantity": 7.0,
+      "unit_price": 291.0,
+      "line_total": 2037.0
+    },
+    {
+      "description": "تیل",
+      "quantity": 1.0,
+      "unit_price": 115.25,
+      "line_total": 115.25
+    },
+    {
+      "description": "ڈبل ٹیپ",
+      "quantity": 26.0,
+      "unit_price": 1295.0,
+      "line_total": 33670.0
+    },
+    {
+      "description": "ٹیبلٹ",
+      "quantity": 6.0,
+      "unit_price": 535.0,
+      "line_total": 3210.0
+    }
+  ],
+  "subtotal": 39032.25,
+  "tax": null,
+  "total": 39032.25
+}

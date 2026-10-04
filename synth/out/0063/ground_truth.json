@@ -1,0 +1,39 @@
+{
+  "invoice_number": "BL-2024-8181",
+  "date": "2024-06-08",
+  "line_items": [
+    {
+      "description": "شربت",
+      "quantity": 17.0,
+      "unit_price": 1005.0,
+      "line_total": 17085.0
+    },
+    {
+      "description": "گھی",
+      "quantity": 32.0,
+      "unit_price": 726.0,
+      "line_total": 23232.0
+    },
+    {
+      "description": "گھی",
+      "quantity": 9.0,
+      "unit_price": 1005.0,
+      "line_total": 9045.0
+    },
+    {
+      "description": "پائپ",
+      "quantity": 35.0,
+      "unit_price": 125.0,
+      "line_total": 4375.0
+    },
+    {
+      "description": "ٹیبلٹ",
+      "quantity": 3.0,
+      "unit_price": 157.0,
+      "line_total": 471.0
+    }
+  ],
+  "subtotal": 54208.0,
+  "tax": 7047.04,
+  "total": 61255.04
+}

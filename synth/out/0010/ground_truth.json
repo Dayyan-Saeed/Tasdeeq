@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2024-6292",
+  "date": "2024-08-14",
+  "line_items": [
+    {
+      "description": "چینی",
+      "quantity": 26.0,
+      "unit_price": 337.75,
+      "line_total": 8781.5
+    },
+    {
+      "description": "گھی",
+      "quantity": 7.0,
+      "unit_price": 453.0,
+      "line_total": 3171.0
+    },
+    {
+      "description": "پتاتس",
+      "quantity": 34.0,
+      "unit_price": 1146.0,
+      "line_total": 38964.0
+    },
+    {
+      "description": "کھڑا",
+      "quantity": 8.0,
+      "unit_price": 956.0,
+      "line_total": 7648.0
+    },
+    {
+      "description": "چائے",
+      "quantity": 34.0,
+      "unit_price": 1224.0,
+      "line_total": 41616.0
+    },
+    {
+      "description": "آئینہ",
+      "quantity": 29.0,
+      "unit_price": 1478.0,
+      "line_total": 42862.0
+    }
+  ],
+  "subtotal": 143042.5,
+  "tax": null,
+  "total": 143042.5
+}

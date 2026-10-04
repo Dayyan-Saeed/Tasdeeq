@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2024-7488",
+  "date": "2024-03-23",
+  "line_items": [
+    {
+      "description": "چائے",
+      "quantity": 39.0,
+      "unit_price": 291.0,
+      "line_total": 11349.0
+    },
+    {
+      "description": "پینچس",
+      "quantity": 40.0,
+      "unit_price": 809.0,
+      "line_total": 32360.0
+    },
+    {
+      "description": "ٹیبلٹ",
+      "quantity": 20.0,
+      "unit_price": 1043.0,
+      "line_total": 20860.0
+    },
+    {
+      "description": "ہتھوڑا",
+      "quantity": 33.0,
+      "unit_price": 1456.0,
+      "line_total": 48048.0
+    }
+  ],
+  "subtotal": 112617.0,
+  "tax": 18018.72,
+  "total": 130635.72
+}

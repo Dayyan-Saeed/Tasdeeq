@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-2024-5544",
+  "date": "2024-06-12",
+  "line_items": [
+    {
+      "description": "کھڑا",
+      "quantity": 22.0,
+      "unit_price": 50.75,
+      "line_total": 1116.5
+    },
+    {
+      "description": "پینچس",
+      "quantity": 25.0,
+      "unit_price": 372.75,
+      "line_total": 9318.75
+    },
+    {
+      "description": "کھڑا",
+      "quantity": 10.0,
+      "unit_price": 1198.0,
+      "line_total": 11980.0
+    }
+  ],
+  "subtotal": 22415.25,
+  "tax": 2913.98,
+  "total": 25329.23
+}

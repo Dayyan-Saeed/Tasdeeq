@@ -1,0 +1,33 @@
+{
+  "invoice_number": "BL-2025-1776",
+  "date": "2025-10-13",
+  "line_items": [
+    {
+      "description": "پینچس",
+      "quantity": 31.0,
+      "unit_price": 289.5,
+      "line_total": 8974.5
+    },
+    {
+      "description": "ٹیبلٹ",
+      "quantity": 15.0,
+      "unit_price": 1306.0,
+      "line_total": 19590.0
+    },
+    {
+      "description": "ڈبل ٹیپ",
+      "quantity": 30.0,
+      "unit_price": 623.0,
+      "line_total": 18690.0
+    },
+    {
+      "description": "ٹماٹر",
+      "quantity": 27.0,
+      "unit_price": 25.25,
+      "line_total": 681.75
+    }
+  ],
+  "subtotal": 47936.25,
+  "tax": 8149.16,
+  "total": 56085.41
+}

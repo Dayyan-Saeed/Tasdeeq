@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2024-3472",
+  "date": "2024-08-06",
+  "line_items": [
+    {
+      "description": "پیچ",
+      "quantity": 9.0,
+      "unit_price": 42.75,
+      "line_total": 384.75
+    },
+    {
+      "description": "دال مسور",
+      "quantity": 13.0,
+      "unit_price": 1289.0,
+      "line_total": 16757.0
+    },
+    {
+      "description": "چاول",
+      "quantity": 39.0,
+      "unit_price": 374.25,
+      "line_total": 14595.75
+    },
+    {
+      "description": "چائے",
+      "quantity": 25.0,
+      "unit_price": 1135.0,
+      "line_total": 28375.0
+    }
+  ],
+  "subtotal": 60112.5,
+  "tax": 9618.0,
+  "total": 69730.5
+}

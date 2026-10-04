@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2025-6169",
+  "date": "2025-12-23",
+  "line_items": [
+    {
+      "description": "کھڑا",
+      "quantity": 30.0,
+      "unit_price": 240.5,
+      "line_total": 7215.0
+    },
+    {
+      "description": "ہتھوڑا",
+      "quantity": 34.0,
+      "unit_price": 818.0,
+      "line_total": 27812.0
+    },
+    {
+      "description": "رنگ",
+      "quantity": 7.0,
+      "unit_price": 341.5,
+      "line_total": 2390.5
+    },
+    {
+      "description": "کھڑا",
+      "quantity": 39.0,
+      "unit_price": 616.0,
+      "line_total": 24024.0
+    },
+    {
+      "description": "پیاز",
+      "quantity": 7.0,
+      "unit_price": 693.0,
+      "line_total": 4851.0
+    }
+  ],
+  "subtotal": 66292.5,
+  "tax": 8618.02,
+  "total": 74910.52
+}

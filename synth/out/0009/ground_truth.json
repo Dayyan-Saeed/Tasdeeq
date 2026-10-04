@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2025-6889",
+  "date": "2025-07-23",
+  "line_items": [
+    {
+      "description": "دودھ",
+      "quantity": 12.0,
+      "unit_price": 621.0,
+      "line_total": 7452.0
+    },
+    {
+      "description": "ٹماٹر",
+      "quantity": 36.0,
+      "unit_price": 627.0,
+      "line_total": 22572.0
+    },
+    {
+      "description": "پینچس",
+      "quantity": 14.0,
+      "unit_price": 1192.0,
+      "line_total": 16688.0
+    },
+    {
+      "description": "کھڑا",
+      "quantity": 21.0,
+      "unit_price": 910.0,
+      "line_total": 19110.0
+    },
+    {
+      "description": "کھڑا",
+      "quantity": 14.0,
+      "unit_price": 352.0,
+      "line_total": 4928.0
+    },
+    {
+      "description": "پینچس",
+      "quantity": 6.0,
+      "unit_price": 341.75,
+      "line_total": 2050.5
+    }
+  ],
+  "subtotal": 72800.5,
+  "tax": 11648.08,
+  "total": 84448.58
+}

@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2025-0863",
+  "date": "2025-02-19",
+  "line_items": [
+    {
+      "description": "دودھ",
+      "quantity": 15.0,
+      "unit_price": 99.0,
+      "line_total": 1485.0
+    },
+    {
+      "description": "بینڈ اسٹریپ",
+      "quantity": 5.0,
+      "unit_price": 583.0,
+      "line_total": 2915.0
+    },
+    {
+      "description": "نٹ",
+      "quantity": 20.0,
+      "unit_price": 1137.0,
+      "line_total": 22740.0
+    },
+    {
+      "description": "ہتھوڑا",
+      "quantity": 1.0,
+      "unit_price": 602.0,
+      "line_total": 602.0
+    }
+  ],
+  "subtotal": 27742.0,
+  "tax": 4438.72,
+  "total": 32180.72
+}

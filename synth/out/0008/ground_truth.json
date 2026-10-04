@@ -1,0 +1,39 @@
+{
+  "invoice_number": "BL-2025-1890",
+  "date": "2025-11-27",
+  "line_items": [
+    {
+      "description": "آٹا",
+      "quantity": 12.0,
+      "unit_price": 548.0,
+      "line_total": 6576.0
+    },
+    {
+      "description": "شربت",
+      "quantity": 7.0,
+      "unit_price": 712.0,
+      "line_total": 4984.0
+    },
+    {
+      "description": "دال چنا",
+      "quantity": 21.0,
+      "unit_price": 1052.0,
+      "line_total": 22092.0
+    },
+    {
+      "description": "پیاز",
+      "quantity": 25.0,
+      "unit_price": 394.0,
+      "line_total": 9850.0
+    },
+    {
+      "description": "پائپ",
+      "quantity": 3.0,
+      "unit_price": 8.0,
+      "line_total": 24.0
+    }
+  ],
+  "subtotal": 43526.0,
+  "tax": null,
+  "total": 43526.0
+}

@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2024-2528",
+  "date": "2024-12-03",
+  "line_items": [
+    {
+      "description": "چینی",
+      "quantity": 21.0,
+      "unit_price": 192.0,
+      "line_total": 4032.0
+    },
+    {
+      "description": "دال چنا",
+      "quantity": 20.0,
+      "unit_price": 557.0,
+      "line_total": 11140.0
+    },
+    {
+      "description": "رنگ",
+      "quantity": 9.0,
+      "unit_price": 222.5,
+      "line_total": 2002.5
+    },
+    {
+      "description": "چینی",
+      "quantity": 36.0,
+      "unit_price": 216.0,
+      "line_total": 7776.0
+    },
+    {
+      "description": "پینچس",
+      "quantity": 6.0,
+      "unit_price": 195.0,
+      "line_total": 1170.0
+    },
+    {
+      "description": "چینی",
+      "quantity": 39.0,
+      "unit_price": 793.0,
+      "line_total": 30927.0
+    }
+  ],
+  "subtotal": 57047.5,
+  "tax": 9127.6,
+  "total": 66175.1
+}

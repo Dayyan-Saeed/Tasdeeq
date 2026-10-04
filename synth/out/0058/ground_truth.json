@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2024-3366",
+  "date": "2024-03-11",
+  "line_items": [
+    {
+      "description": "کریم",
+      "quantity": 6.0,
+      "unit_price": 917.0,
+      "line_total": 5502.0
+    },
+    {
+      "description": "پیچ",
+      "quantity": 4.0,
+      "unit_price": 1056.0,
+      "line_total": 4224.0
+    },
+    {
+      "description": "نٹ",
+      "quantity": 30.0,
+      "unit_price": 1149.0,
+      "line_total": 34470.0
+    },
+    {
+      "description": "پیاز",
+      "quantity": 20.0,
+      "unit_price": 815.0,
+      "line_total": 16300.0
+    },
+    {
+      "description": "چاول",
+      "quantity": 1.0,
+      "unit_price": 1189.0,
+      "line_total": 1189.0
+    },
+    {
+      "description": "چاول",
+      "quantity": 3.0,
+      "unit_price": 1439.0,
+      "line_total": 4317.0
+    }
+  ],
+  "subtotal": 66002.0,
+  "tax": null,
+  "total": 66002.0
+}

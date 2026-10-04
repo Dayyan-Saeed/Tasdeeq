@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2025-2195",
+  "date": "2025-05-18",
+  "line_items": [
+    {
+      "description": "آٹا",
+      "quantity": 24.0,
+      "unit_price": 754.0,
+      "line_total": 18096.0
+    },
+    {
+      "description": "بسکٹ",
+      "quantity": 26.0,
+      "unit_price": 289.25,
+      "line_total": 7520.5
+    },
+    {
+      "description": "نٹ",
+      "quantity": 36.0,
+      "unit_price": 199.75,
+      "line_total": 7191.0
+    },
+    {
+      "description": "پینچس",
+      "quantity": 36.0,
+      "unit_price": 321.75,
+      "line_total": 11583.0
+    },
+    {
+      "description": "بسکٹ",
+      "quantity": 8.0,
+      "unit_price": 51.5,
+      "line_total": 412.0
+    }
+  ],
+  "subtotal": 44802.5,
+  "tax": 7168.4,
+  "total": 51970.9
+}

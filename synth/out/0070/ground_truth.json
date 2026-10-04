@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2024-0726",
+  "date": "2024-11-22",
+  "line_items": [
+    {
+      "description": "دال چنا",
+      "quantity": 22.0,
+      "unit_price": 886.0,
+      "line_total": 19492.0
+    },
+    {
+      "description": "شربت",
+      "quantity": 1.0,
+      "unit_price": 115.75,
+      "line_total": 115.75
+    },
+    {
+      "description": "ہتھوڑا",
+      "quantity": 34.0,
+      "unit_price": 1413.0,
+      "line_total": 48042.0
+    },
+    {
+      "description": "نٹ",
+      "quantity": 15.0,
+      "unit_price": 806.0,
+      "line_total": 12090.0
+    },
+    {
+      "description": "بسکٹ",
+      "quantity": 38.0,
+      "unit_price": 313.0,
+      "line_total": 11894.0
+    },
+    {
+      "description": "پیچ",
+      "quantity": 2.0,
+      "unit_price": 610.0,
+      "line_total": 1220.0
+    }
+  ],
+  "subtotal": 92853.75,
+  "tax": null,
+  "total": 92853.75
+}

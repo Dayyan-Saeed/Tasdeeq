@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+
+# raw Colab drop — ingested into results/
+results3/
+
+# scratch evaluation runs
+eval/logs/
+eval/chain.cmd
+
+# regenerable Colab upload artifact (python tools/build_colab_zip.py)
+tasdeeq_colab.zip
+
+# regenerable HF Space staging folder (python tools/build_space.py)
+build/

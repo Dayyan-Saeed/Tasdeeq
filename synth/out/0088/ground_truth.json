@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-2024-4603",
+  "date": "2024-01-11",
+  "line_items": [
+    {
+      "description": "پتاتس",
+      "quantity": 31.0,
+      "unit_price": 1201.0,
+      "line_total": 37231.0
+    },
+    {
+      "description": "پیاز",
+      "quantity": 11.0,
+      "unit_price": 338.25,
+      "line_total": 3720.75
+    },
+    {
+      "description": "بینڈ اسٹریپ",
+      "quantity": 35.0,
+      "unit_price": 119.0,
+      "line_total": 4165.0
+    }
+  ],
+  "subtotal": 45116.75,
+  "tax": 5865.18,
+  "total": 50981.93
+}

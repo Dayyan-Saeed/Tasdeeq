@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2024-6483",
+  "date": "2024-10-23",
+  "line_items": [
+    {
+      "description": "رنگ",
+      "quantity": 10.0,
+      "unit_price": 128.75,
+      "line_total": 1287.5
+    },
+    {
+      "description": "آئینہ",
+      "quantity": 35.0,
+      "unit_price": 301.5,
+      "line_total": 10552.5
+    },
+    {
+      "description": "دال مسور",
+      "quantity": 38.0,
+      "unit_price": 454.0,
+      "line_total": 17252.0
+    },
+    {
+      "description": "مسک",
+      "quantity": 33.0,
+      "unit_price": 101.0,
+      "line_total": 3333.0
+    },
+    {
+      "description": "پیچ",
+      "quantity": 8.0,
+      "unit_price": 83.75,
+      "line_total": 670.0
+    },
+    {
+      "description": "نٹ",
+      "quantity": 39.0,
+      "unit_price": 197.75,
+      "line_total": 7712.25
+    }
+  ],
+  "subtotal": 40807.25,
+  "tax": null,
+  "total": 40807.25
+}

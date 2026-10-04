@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tasdeeq — verified Urdu invoice extraction</title>
+<style>
+  :root { font-family: system-ui, sans-serif; color: #1f2328; }
+  body { margin: 0; background: #f6f8fa; }
+  header, main, footer { max-width: 980px; margin: 0 auto; padding: 16px; }
+  header { padding-top: 40px; }
+  h1 { margin: 0 0 6px; }
+  .sub { color: #57606a; margin: 0 0 18px; }
+  .note { background: #fff8c5; border: 1px solid #d4a72c66; border-radius: 8px;
+           padding: 10px 14px; font-size: .92em; }
+  .metrics { display: flex; gap: 12px; flex-wrap: wrap; margin: 18px 0; }
+  .metric { background: #fff; border: 1px solid #d0d7de; border-radius: 8px;
+             padding: 10px 16px; text-align: center; min-width: 130px; }
+  .metric b { display: block; font-size: 1.6em; color: #1a7f37; }
+  .metric span { font-size: .8em; color: #57606a; }
+  .card { background: #fff; border: 1px solid #d0d7de; border-radius: 10px;
+           margin: 18px 0; overflow: hidden; }
+  .card-head { display: flex; align-items: center; gap: 10px; padding: 10px 14px;
+                border-bottom: 1px solid #d0d7de; }
+  .chip { color: #fff; font-weight: 700; font-size: .78em; border-radius: 999px;
+           padding: 3px 10px; }
+  .mode { color: #57606a; font-size: .85em; }
+  .card-body { display: grid; grid-template-columns: 1fr 1.2fr; gap: 16px; padding: 14px; }
+  .card-body img { width: 100%; border: 1px solid #d0d7de; border-radius: 6px; }
+  table { width: 100%; border-collapse: collapse; font-size: .92em; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #eee; }
+  .caption { color: #57606a; font-size: .88em; line-height: 1.45; }
+  footer { color: #57606a; font-size: .85em; padding-bottom: 48px; }
+  a { color: #0969da; }
+  @media (max-width: 760px) { .card-body { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Tasdeeq — verified Urdu (Nastaliq) invoice extraction</h1>
+  <p class="sub">Two OCR engines read the invoice; a verification layer (arithmetic,
+  cross-engine agreement, format validity) decides green / amber / red per field.
+  Nothing is ever auto-corrected.</p>
+  <p class="note">This is the <b>static fallback</b> showcase with saved example results.
+  The live app (login <code>demo / tasdeeq123</code>) runs at
+  <a href="https://huggingface.co/spaces/dayyan003/Tasdeeq">huggingface.co/spaces/dayyan003/Tasdeeq</a>
+  — source code at <a href="https://github.com/Dayyan-Saeed/Tasdeeq">github.com/Dayyan-Saeed/Tasdeeq</a>.</p>
+  <div class="metrics"><div class='metric'><b>1.0</b><span>green precision</span></div><div class='metric'><b>1.0</b><span>flag rate on wrong</span></div><div class='metric'><b>1.0</b><span>corrupted recall</span></div><div class='metric'><b>78%</b><span>verifier accuracy</span></div></div>
+  <p class="sub">Held-out evaluation, pipeline (Qaari + EasyOCR), 20 synthetic invoices
+  (the main set is synthetic; see the README for limits).</p>
+</header>
+<main>
+    <section class="card">
+      <div class="card-head">
+        <span class="chip" style="background:#1a7f37">GREEN</span>
+        <span class="mode">0091 · mild invoice · saved eval run</span>
+      </div>
+      <div class="card-body">
+        <img src="assets/0091.png" alt="invoice 0091">
+        <div><table><tr><th>field</th><th>status</th><th>value</th></tr><tr><td><code>invoice_number</code></td><td style='color:#1a7f37;font-weight:600'>● green</td><td style='text-align:right' dir='auto'>INV-2025-8130</td></tr><tr><td><code>date</code></td><td style='color:#1a7f37;font-weight:600'>● green</td><td style='text-align:right' dir='auto'>2025-10-08</td></tr><tr><td><code>subtotal</code></td><td style='color:#1a7f37;font-weight:600'>● green</td><td style='text-align:right' dir='auto'>35,434.75</td></tr><tr><td><code>tax</code></td><td style='color:#1a7f37;font-weight:600'>● green</td><td style='text-align:right' dir='auto'>—</td></tr><tr><td><code>total</code></td><td style='color:#1a7f37;font-weight:600'>● green</td><td style='text-align:right' dir='auto'>35,434.75</td></tr></table><p class="caption">All checks pass: arithmetic, format and both engines agree — safe to auto-accept.</p></div>
+      </div>
+    </section>
+    <section class="card">
+      <div class="card-head">
+        <span class="chip" style="background:#9a6700">AMBER</span>
+        <span class="mode">0087 · heavy invoice · saved eval run</span>
+      </div>
+      <div class="card-body">
+        <img src="assets/0087.png" alt="invoice 0087">
+        <div><table><tr><th>field</th><th>status</th><th>value</th></tr><tr><td><code>invoice_number</code></td><td style='color:#1a7f37;font-weight:600'>● green</td><td style='text-align:right' dir='auto'>INV-2025-9403</td></tr><tr><td><code>date</code></td><td style='color:#1a7f37;font-weight:600'>● green</td><td style='text-align:right' dir='auto'>2025-02-02</td></tr><tr><td><code>subtotal</code></td><td style='color:#9a6700;font-weight:600'>● amber</td><td style='text-align:right' dir='auto'>71,786.00</td></tr><tr><td><code>tax</code></td><td style='color:#9a6700;font-weight:600'>● amber</td><td style='text-align:right' dir='auto'>71,786.00</td></tr><tr><td><code>total</code></td><td style='color:#9a6700;font-weight:600'>● amber</td><td style='text-align:right' dir='auto'>81,118.18</td></tr></table><p class="caption">Arithmetic passes but engines disagree on a field — amber: a human must review before anything is accepted.</p></div>
+      </div>
+    </section>
+    <section class="card">
+      <div class="card-head">
+        <span class="chip" style="background:#cf222e">RED</span>
+        <span class="mode">0099 · corrupted invoice · saved eval run</span>
+      </div>
+      <div class="card-body">
+        <img src="assets/0099.png" alt="invoice 0099">
+        <div><table><tr><th>field</th><th>status</th><th>value</th></tr><tr><td><code>invoice_number</code></td><td style='color:#9a6700;font-weight:600'>● amber</td><td style='text-align:right' dir='auto'>INV-نمب</td></tr><tr><td><code>date</code></td><td style='color:#9a6700;font-weight:600'>● amber</td><td style='text-align:right' dir='auto'>2020-05-17</td></tr><tr><td><code>subtotal</code></td><td style='color:#9a6700;font-weight:600'>● amber</td><td style='text-align:right' dir='auto'>66,292,050.00</td></tr><tr><td><code>tax</code></td><td style='color:#9a6700;font-weight:600'>● amber</td><td style='text-align:right' dir='auto'>—</td></tr><tr><td><code>total</code></td><td style='color:#cf222e;font-weight:600'>● red</td><td style='text-align:right' dir='auto'>—</td></tr></table><p class="caption">Corrupted invoice: the printed total (74,410.52) is wrong — red blocks auto-accept. Ground-truth total: 74,910.52.</p></div>
+      </div>
+    </section></main>
+<footer>Sample invoices are synthetic renders (seed 42). Verdicts are the measured
+output of the evaluation run saved in <code>results/results.md</code>.</footer>
+</body>
+</html>

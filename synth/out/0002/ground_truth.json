@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2024-6119",
+  "date": "2024-12-10",
+  "line_items": [
+    {
+      "description": "پتاتس",
+      "quantity": 34.0,
+      "unit_price": 512.0,
+      "line_total": 17408.0
+    },
+    {
+      "description": "رنگ",
+      "quantity": 5.0,
+      "unit_price": 1209.0,
+      "line_total": 6045.0
+    },
+    {
+      "description": "چاول",
+      "quantity": 15.0,
+      "unit_price": 19.0,
+      "line_total": 285.0
+    },
+    {
+      "description": "چاول",
+      "quantity": 4.0,
+      "unit_price": 18.5,
+      "line_total": 74.0
+    },
+    {
+      "description": "تیل",
+      "quantity": 33.0,
+      "unit_price": 344.5,
+      "line_total": 11368.5
+    },
+    {
+      "description": "وال ویش",
+      "quantity": 35.0,
+      "unit_price": 294.75,
+      "line_total": 10316.25
+    }
+  ],
+  "subtotal": 45496.75,
+  "tax": 5914.58,
+  "total": 51411.33
+}

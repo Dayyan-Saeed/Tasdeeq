@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-2025-3391",
+  "date": "2025-03-20",
+  "line_items": [
+    {
+      "description": "پینچس",
+      "quantity": 37.0,
+      "unit_price": 580.0,
+      "line_total": 21460.0
+    },
+    {
+      "description": "ٹماٹر",
+      "quantity": 35.0,
+      "unit_price": 362.5,
+      "line_total": 12687.5
+    },
+    {
+      "description": "ٹیبلٹ",
+      "quantity": 37.0,
+      "unit_price": 265.75,
+      "line_total": 9832.75
+    }
+  ],
+  "subtotal": 43980.25,
+  "tax": null,
+  "total": 43980.25
+}

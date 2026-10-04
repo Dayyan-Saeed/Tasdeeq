@@ -1,0 +1,39 @@
+{
+  "invoice_number": "BL-2024-8851",
+  "date": "2024-05-28",
+  "line_items": [
+    {
+      "description": "چینی",
+      "quantity": 12.0,
+      "unit_price": 15.25,
+      "line_total": 183.0
+    },
+    {
+      "description": "ہتھوڑا",
+      "quantity": 23.0,
+      "unit_price": 492.0,
+      "line_total": 11316.0
+    },
+    {
+      "description": "دال مسور",
+      "quantity": 21.0,
+      "unit_price": 137.25,
+      "line_total": 2882.25
+    },
+    {
+      "description": "وال ویش",
+      "quantity": 27.0,
+      "unit_price": 135.0,
+      "line_total": 3645.0
+    },
+    {
+      "description": "ہتھوڑا",
+      "quantity": 29.0,
+      "unit_price": 1056.0,
+      "line_total": 30624.0
+    }
+  ],
+  "subtotal": 48650.25,
+  "tax": null,
+  "total": 48650.25
+}

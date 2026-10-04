@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2024-8844",
+  "date": "2024-04-24",
+  "line_items": [
+    {
+      "description": "ٹیبلٹ",
+      "quantity": 4.0,
+      "unit_price": 150.25,
+      "line_total": 601.0
+    },
+    {
+      "description": "بینڈ اسٹریپ",
+      "quantity": 37.0,
+      "unit_price": 1229.0,
+      "line_total": 45473.0
+    },
+    {
+      "description": "پائپ",
+      "quantity": 21.0,
+      "unit_price": 75.75,
+      "line_total": 1590.75
+    },
+    {
+      "description": "آٹا",
+      "quantity": 15.0,
+      "unit_price": 568.0,
+      "line_total": 8520.0
+    }
+  ],
+  "subtotal": 56184.75,
+  "tax": null,
+  "total": 56184.75
+}

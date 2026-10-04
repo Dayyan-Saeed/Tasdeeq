@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2024-2574",
+  "date": "2024-04-21",
+  "line_items": [
+    {
+      "description": "چینی",
+      "quantity": 12.0,
+      "unit_price": 325.0,
+      "line_total": 3900.0
+    },
+    {
+      "description": "وال ویش",
+      "quantity": 27.0,
+      "unit_price": 1221.0,
+      "line_total": 32967.0
+    },
+    {
+      "description": "ٹماٹر",
+      "quantity": 19.0,
+      "unit_price": 149.75,
+      "line_total": 2845.25
+    },
+    {
+      "description": "کریم",
+      "quantity": 30.0,
+      "unit_price": 121.5,
+      "line_total": 3645.0
+    }
+  ],
+  "subtotal": 43357.25,
+  "tax": 5636.44,
+  "total": 48993.69
+}

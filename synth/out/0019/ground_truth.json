@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2024-9326",
+  "date": "2024-01-06",
+  "line_items": [
+    {
+      "description": "کیپسول",
+      "quantity": 29.0,
+      "unit_price": 354.5,
+      "line_total": 10280.5
+    },
+    {
+      "description": "رنگ",
+      "quantity": 26.0,
+      "unit_price": 1029.0,
+      "line_total": 26754.0
+    },
+    {
+      "description": "آٹا",
+      "quantity": 32.0,
+      "unit_price": 1229.0,
+      "line_total": 39328.0
+    },
+    {
+      "description": "پیاز",
+      "quantity": 28.0,
+      "unit_price": 1241.0,
+      "line_total": 34748.0
+    },
+    {
+      "description": "ہتھوڑا",
+      "quantity": 2.0,
+      "unit_price": 347.75,
+      "line_total": 695.5
+    }
+  ],
+  "subtotal": 111806.0,
+  "tax": null,
+  "total": 111806.0
+}

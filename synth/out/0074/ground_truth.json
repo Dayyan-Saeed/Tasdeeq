@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2024-2756",
+  "date": "2024-05-02",
+  "line_items": [
+    {
+      "description": "رنگ",
+      "quantity": 37.0,
+      "unit_price": 1019.0,
+      "line_total": 37703.0
+    },
+    {
+      "description": "بینڈ اسٹریپ",
+      "quantity": 33.0,
+      "unit_price": 60.5,
+      "line_total": 1996.5
+    },
+    {
+      "description": "رنگ",
+      "quantity": 35.0,
+      "unit_price": 756.0,
+      "line_total": 26460.0
+    },
+    {
+      "description": "رنگ",
+      "quantity": 3.0,
+      "unit_price": 908.0,
+      "line_total": 2724.0
+    },
+    {
+      "description": "شربت",
+      "quantity": 14.0,
+      "unit_price": 214.0,
+      "line_total": 2996.0
+    },
+    {
+      "description": "پیاز",
+      "quantity": 16.0,
+      "unit_price": 18.5,
+      "line_total": 296.0
+    }
+  ],
+  "subtotal": 72175.5,
+  "tax": 11548.08,
+  "total": 83723.58
+}

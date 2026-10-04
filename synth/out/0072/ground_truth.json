@@ -1,0 +1,39 @@
+{
+  "invoice_number": "BL-2025-3372",
+  "date": "2025-10-14",
+  "line_items": [
+    {
+      "description": "گھی",
+      "quantity": 5.0,
+      "unit_price": 1104.0,
+      "line_total": 5520.0
+    },
+    {
+      "description": "دال چنا",
+      "quantity": 24.0,
+      "unit_price": 942.0,
+      "line_total": 22608.0
+    },
+    {
+      "description": "پائپ",
+      "quantity": 17.0,
+      "unit_price": 1007.0,
+      "line_total": 17119.0
+    },
+    {
+      "description": "دودھ",
+      "quantity": 21.0,
+      "unit_price": 1256.0,
+      "line_total": 26376.0
+    },
+    {
+      "description": "پینچس",
+      "quantity": 38.0,
+      "unit_price": 182.5,
+      "line_total": 6935.0
+    }
+  ],
+  "subtotal": 78558.0,
+  "tax": 10212.54,
+  "total": 88770.54
+}

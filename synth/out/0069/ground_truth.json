@@ -1,0 +1,45 @@
+{
+  "invoice_number": "BL-2024-0441",
+  "date": "2024-10-18",
+  "line_items": [
+    {
+      "description": "ٹیبلٹ",
+      "quantity": 14.0,
+      "unit_price": 601.0,
+      "line_total": 8414.0
+    },
+    {
+      "description": "کھڑا",
+      "quantity": 5.0,
+      "unit_price": 842.0,
+      "line_total": 4210.0
+    },
+    {
+      "description": "پیاز",
+      "quantity": 32.0,
+      "unit_price": 157.25,
+      "line_total": 5032.0
+    },
+    {
+      "description": "چاول",
+      "quantity": 10.0,
+      "unit_price": 777.0,
+      "line_total": 7770.0
+    },
+    {
+      "description": "ہتھوڑا",
+      "quantity": 29.0,
+      "unit_price": 986.0,
+      "line_total": 28594.0
+    },
+    {
+      "description": "پیچ",
+      "quantity": 26.0,
+      "unit_price": 1421.0,
+      "line_total": 36946.0
+    }
+  ],
+  "subtotal": 90966.0,
+  "tax": null,
+  "total": 90966.0
+}

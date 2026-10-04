@@ -1,0 +1,33 @@
+{
+  "invoice_number": "BL-2024-3506",
+  "date": "2024-06-15",
+  "line_items": [
+    {
+      "description": "پیاز",
+      "quantity": 35.0,
+      "unit_price": 289.75,
+      "line_total": 10141.25
+    },
+    {
+      "description": "پتاتس",
+      "quantity": 9.0,
+      "unit_price": 381.75,
+      "line_total": 3435.75
+    },
+    {
+      "description": "ڈبل ٹیپ",
+      "quantity": 16.0,
+      "unit_price": 273.25,
+      "line_total": 4372.0
+    },
+    {
+      "description": "کیپسول",
+      "quantity": 15.0,
+      "unit_price": 213.5,
+      "line_total": 3202.5
+    }
+  ],
+  "subtotal": 21151.5,
+  "tax": 3595.76,
+  "total": 24747.26
+}

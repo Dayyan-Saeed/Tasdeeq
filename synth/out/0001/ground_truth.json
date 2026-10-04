@@ -1,0 +1,33 @@
+{
+  "invoice_number": "BL-2025-4890",
+  "date": "2025-09-25",
+  "line_items": [
+    {
+      "description": "رنگ",
+      "quantity": 10.0,
+      "unit_price": 335.0,
+      "line_total": 3350.0
+    },
+    {
+      "description": "چائے",
+      "quantity": 34.0,
+      "unit_price": 1231.0,
+      "line_total": 41854.0
+    },
+    {
+      "description": "پتاتس",
+      "quantity": 32.0,
+      "unit_price": 187.5,
+      "line_total": 6000.0
+    },
+    {
+      "description": "چاول",
+      "quantity": 4.0,
+      "unit_price": 292.25,
+      "line_total": 1169.0
+    }
+  ],
+  "subtotal": 52373.0,
+  "tax": 6808.49,
+  "total": 59181.49
+}

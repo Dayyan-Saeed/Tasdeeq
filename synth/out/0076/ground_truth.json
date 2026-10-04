@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2025-6787",
+  "date": "2025-08-05",
+  "line_items": [
+    {
+      "description": "دودھ",
+      "quantity": 29.0,
+      "unit_price": 395.25,
+      "line_total": 11462.25
+    },
+    {
+      "description": "آئینہ",
+      "quantity": 33.0,
+      "unit_price": 1427.0,
+      "line_total": 47091.0
+    },
+    {
+      "description": "چائے",
+      "quantity": 24.0,
+      "unit_price": 1004.0,
+      "line_total": 24096.0
+    },
+    {
+      "description": "چاول",
+      "quantity": 38.0,
+      "unit_price": 398.75,
+      "line_total": 15152.5
+    },
+    {
+      "description": "بسکٹ",
+      "quantity": 30.0,
+      "unit_price": 1433.0,
+      "line_total": 42990.0
+    },
+    {
+      "description": "تیل",
+      "quantity": 5.0,
+      "unit_price": 819.0,
+      "line_total": 4095.0
+    }
+  ],
+  "subtotal": 144886.75,
+  "tax": 24630.75,
+  "total": 169517.5
+}

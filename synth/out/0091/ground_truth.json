@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2025-8130",
+  "date": "2025-10-08",
+  "line_items": [
+    {
+      "description": "بسکٹ",
+      "quantity": 22.0,
+      "unit_price": 492.0,
+      "line_total": 10824.0
+    },
+    {
+      "description": "کھڑا",
+      "quantity": 21.0,
+      "unit_price": 47.75,
+      "line_total": 1002.75
+    },
+    {
+      "description": "تیل",
+      "quantity": 22.0,
+      "unit_price": 548.0,
+      "line_total": 12056.0
+    },
+    {
+      "description": "پیاز",
+      "quantity": 16.0,
+      "unit_price": 722.0,
+      "line_total": 11552.0
+    }
+  ],
+  "subtotal": 35434.75,
+  "tax": null,
+  "total": 35434.75
+}

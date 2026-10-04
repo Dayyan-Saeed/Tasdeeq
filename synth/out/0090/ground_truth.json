@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2024-1656",
+  "date": "2024-06-23",
+  "line_items": [
+    {
+      "description": "شربت",
+      "quantity": 20.0,
+      "unit_price": 327.0,
+      "line_total": 6540.0
+    },
+    {
+      "description": "ڈبل ٹیپ",
+      "quantity": 28.0,
+      "unit_price": 1002.0,
+      "line_total": 28056.0
+    },
+    {
+      "description": "آئینہ",
+      "quantity": 21.0,
+      "unit_price": 289.75,
+      "line_total": 6084.75
+    },
+    {
+      "description": "کھڑا",
+      "quantity": 40.0,
+      "unit_price": 462.0,
+      "line_total": 18480.0
+    },
+    {
+      "description": "ٹماٹر",
+      "quantity": 38.0,
+      "unit_price": 779.0,
+      "line_total": 29602.0
+    }
+  ],
+  "subtotal": 88762.75,
+  "tax": 11539.16,
+  "total": 100301.91
+}

@@ -1,0 +1,45 @@
+{
+  "invoice_number": "BL-2025-9502",
+  "date": "2025-01-10",
+  "line_items": [
+    {
+      "description": "بسکٹ",
+      "quantity": 10.0,
+      "unit_price": 996.0,
+      "line_total": 9960.0
+    },
+    {
+      "description": "دودھ",
+      "quantity": 22.0,
+      "unit_price": 1117.0,
+      "line_total": 24574.0
+    },
+    {
+      "description": "کیپسول",
+      "quantity": 30.0,
+      "unit_price": 391.0,
+      "line_total": 11730.0
+    },
+    {
+      "description": "مسک",
+      "quantity": 16.0,
+      "unit_price": 483.0,
+      "line_total": 7728.0
+    },
+    {
+      "description": "کیپسول",
+      "quantity": 27.0,
+      "unit_price": 383.5,
+      "line_total": 10354.5
+    },
+    {
+      "description": "کریم",
+      "quantity": 25.0,
+      "unit_price": 1364.0,
+      "line_total": 34100.0
+    }
+  ],
+  "subtotal": 98446.5,
+  "tax": 12798.05,
+  "total": 111244.55
+}

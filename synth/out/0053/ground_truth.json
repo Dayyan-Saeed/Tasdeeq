@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2025-8735",
+  "date": "2025-09-13",
+  "line_items": [
+    {
+      "description": "کھڑا",
+      "quantity": 35.0,
+      "unit_price": 1481.0,
+      "line_total": 51835.0
+    },
+    {
+      "description": "پتاتس",
+      "quantity": 17.0,
+      "unit_price": 398.0,
+      "line_total": 6766.0
+    },
+    {
+      "description": "ٹماٹر",
+      "quantity": 18.0,
+      "unit_price": 465.0,
+      "line_total": 8370.0
+    },
+    {
+      "description": "کیپسول",
+      "quantity": 19.0,
+      "unit_price": 1418.0,
+      "line_total": 26942.0
+    },
+    {
+      "description": "رنگ",
+      "quantity": 32.0,
+      "unit_price": 719.0,
+      "line_total": 23008.0
+    }
+  ],
+  "subtotal": 116921.0,
+  "tax": 15199.73,
+  "total": 132120.73
+}

@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2025-3013",
+  "date": "2025-12-14",
+  "line_items": [
+    {
+      "description": "مسک",
+      "quantity": 16.0,
+      "unit_price": 620.0,
+      "line_total": 9920.0
+    },
+    {
+      "description": "رنگ",
+      "quantity": 10.0,
+      "unit_price": 123.0,
+      "line_total": 1230.0
+    },
+    {
+      "description": "پائپ",
+      "quantity": 27.0,
+      "unit_price": 1146.0,
+      "line_total": 30942.0
+    },
+    {
+      "description": "تیل",
+      "quantity": 9.0,
+      "unit_price": 527.0,
+      "line_total": 4743.0
+    },
+    {
+      "description": "مسک",
+      "quantity": 22.0,
+      "unit_price": 926.0,
+      "line_total": 20372.0
+    },
+    {
+      "description": "آٹا",
+      "quantity": 24.0,
+      "unit_price": 372.25,
+      "line_total": 8934.0
+    }
+  ],
+  "subtotal": 76141.0,
+  "tax": 12182.56,
+  "total": 88323.56
+}

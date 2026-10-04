@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2025-7519",
+  "date": "2025-05-07",
+  "line_items": [
+    {
+      "description": "ہتھوڑا",
+      "quantity": 12.0,
+      "unit_price": 174.5,
+      "line_total": 2094.0
+    },
+    {
+      "description": "ٹیبلٹ",
+      "quantity": 13.0,
+      "unit_price": 329.5,
+      "line_total": 4283.5
+    },
+    {
+      "description": "دودھ",
+      "quantity": 28.0,
+      "unit_price": 182.0,
+      "line_total": 5096.0
+    },
+    {
+      "description": "چائے",
+      "quantity": 7.0,
+      "unit_price": 73.5,
+      "line_total": 514.5
+    },
+    {
+      "description": "نٹ",
+      "quantity": 16.0,
+      "unit_price": 198.25,
+      "line_total": 3172.0
+    }
+  ],
+  "subtotal": 15160.0,
+  "tax": 2425.6,
+  "total": 17585.6
+}

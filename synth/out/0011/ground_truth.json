@@ -1,0 +1,45 @@
+{
+  "invoice_number": "BL-2025-8541",
+  "date": "2025-04-27",
+  "line_items": [
+    {
+      "description": "ٹماٹر",
+      "quantity": 16.0,
+      "unit_price": 41.75,
+      "line_total": 668.0
+    },
+    {
+      "description": "چاول",
+      "quantity": 16.0,
+      "unit_price": 165.75,
+      "line_total": 2652.0
+    },
+    {
+      "description": "دال مسور",
+      "quantity": 9.0,
+      "unit_price": 198.75,
+      "line_total": 1788.75
+    },
+    {
+      "description": "رنگ",
+      "quantity": 14.0,
+      "unit_price": 210.5,
+      "line_total": 2947.0
+    },
+    {
+      "description": "ٹیبلٹ",
+      "quantity": 30.0,
+      "unit_price": 428.0,
+      "line_total": 12840.0
+    },
+    {
+      "description": "کیپسول",
+      "quantity": 27.0,
+      "unit_price": 1201.0,
+      "line_total": 32427.0
+    }
+  ],
+  "subtotal": 53322.75,
+  "tax": null,
+  "total": 53322.75
+}

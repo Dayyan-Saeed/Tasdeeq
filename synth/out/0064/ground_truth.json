@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-2025-6740",
+  "date": "2025-11-16",
+  "line_items": [
+    {
+      "description": "رنگ",
+      "quantity": 2.0,
+      "unit_price": 567.0,
+      "line_total": 1134.0
+    },
+    {
+      "description": "پیچ",
+      "quantity": 19.0,
+      "unit_price": 359.75,
+      "line_total": 6835.25
+    },
+    {
+      "description": "دال مسور",
+      "quantity": 12.0,
+      "unit_price": 51.75,
+      "line_total": 621.0
+    }
+  ],
+  "subtotal": 8590.25,
+  "tax": 1116.73,
+  "total": 9706.98
+}

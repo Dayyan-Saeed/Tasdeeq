@@ -1,0 +1,39 @@
+{
+  "invoice_number": "BL-2025-7776",
+  "date": "2025-08-20",
+  "line_items": [
+    {
+      "description": "ٹیبلٹ",
+      "quantity": 23.0,
+      "unit_price": 134.75,
+      "line_total": 3099.25
+    },
+    {
+      "description": "گھی",
+      "quantity": 6.0,
+      "unit_price": 199.25,
+      "line_total": 1195.5
+    },
+    {
+      "description": "مسک",
+      "quantity": 37.0,
+      "unit_price": 443.0,
+      "line_total": 16391.0
+    },
+    {
+      "description": "تیل",
+      "quantity": 15.0,
+      "unit_price": 1392.0,
+      "line_total": 20880.0
+    },
+    {
+      "description": "چینی",
+      "quantity": 18.0,
+      "unit_price": 1056.0,
+      "line_total": 19008.0
+    }
+  ],
+  "subtotal": 60573.75,
+  "tax": 7874.59,
+  "total": 68448.34
+}

@@ -1,0 +1,33 @@
+{
+  "invoice_number": "BL-2024-0571",
+  "date": "2024-03-28",
+  "line_items": [
+    {
+      "description": "بسکٹ",
+      "quantity": 5.0,
+      "unit_price": 332.5,
+      "line_total": 1662.5
+    },
+    {
+      "description": "پینچس",
+      "quantity": 25.0,
+      "unit_price": 71.0,
+      "line_total": 1775.0
+    },
+    {
+      "description": "بسکٹ",
+      "quantity": 10.0,
+      "unit_price": 764.0,
+      "line_total": 7640.0
+    },
+    {
+      "description": "دال مسور",
+      "quantity": 29.0,
+      "unit_price": 1180.0,
+      "line_total": 34220.0
+    }
+  ],
+  "subtotal": 45297.5,
+  "tax": null,
+  "total": 45297.5
+}

@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-2025-9122",
+  "date": "2025-09-25",
+  "line_items": [
+    {
+      "description": "پیاز",
+      "quantity": 39.0,
+      "unit_price": 1425.0,
+      "line_total": 55575.0
+    },
+    {
+      "description": "چائے",
+      "quantity": 2.0,
+      "unit_price": 361.5,
+      "line_total": 723.0
+    },
+    {
+      "description": "کھڑا",
+      "quantity": 23.0,
+      "unit_price": 75.75,
+      "line_total": 1742.25
+    }
+  ],
+  "subtotal": 58040.25,
+  "tax": 9866.84,
+  "total": 67907.09
+}

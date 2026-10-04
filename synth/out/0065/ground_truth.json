@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2024-6641",
+  "date": "2024-11-28",
+  "line_items": [
+    {
+      "description": "ڈبل ٹیپ",
+      "quantity": 25.0,
+      "unit_price": 119.0,
+      "line_total": 2975.0
+    },
+    {
+      "description": "وال ویش",
+      "quantity": 1.0,
+      "unit_price": 174.0,
+      "line_total": 174.0
+    },
+    {
+      "description": "ہتھوڑا",
+      "quantity": 28.0,
+      "unit_price": 683.0,
+      "line_total": 19124.0
+    },
+    {
+      "description": "پتاتس",
+      "quantity": 7.0,
+      "unit_price": 92.0,
+      "line_total": 644.0
+    },
+    {
+      "description": "آئینہ",
+      "quantity": 14.0,
+      "unit_price": 1422.0,
+      "line_total": 19908.0
+    },
+    {
+      "description": "چاول",
+      "quantity": 37.0,
+      "unit_price": 100.0,
+      "line_total": 3700.0
+    }
+  ],
+  "subtotal": 46525.0,
+  "tax": 6048.25,
+  "total": 52573.25
+}

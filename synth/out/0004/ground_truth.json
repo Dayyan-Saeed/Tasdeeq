@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2024-7455",
+  "date": "2024-03-13",
+  "line_items": [
+    {
+      "description": "کھڑا",
+      "quantity": 28.0,
+      "unit_price": 1143.0,
+      "line_total": 32004.0
+    },
+    {
+      "description": "آٹا",
+      "quantity": 32.0,
+      "unit_price": 153.25,
+      "line_total": 4904.0
+    },
+    {
+      "description": "شربت",
+      "quantity": 38.0,
+      "unit_price": 129.0,
+      "line_total": 4902.0
+    },
+    {
+      "description": "پائپ",
+      "quantity": 21.0,
+      "unit_price": 301.5,
+      "line_total": 6331.5
+    },
+    {
+      "description": "مسک",
+      "quantity": 34.0,
+      "unit_price": 262.25,
+      "line_total": 8916.5
+    }
+  ],
+  "subtotal": 57058.0,
+  "tax": 7417.54,
+  "total": 64475.54
+}

@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2024-6439",
+  "date": "2024-04-10",
+  "line_items": [
+    {
+      "description": "چاول",
+      "quantity": 21.0,
+      "unit_price": 483.0,
+      "line_total": 10143.0
+    },
+    {
+      "description": "دال چنا",
+      "quantity": 13.0,
+      "unit_price": 396.75,
+      "line_total": 5157.75
+    },
+    {
+      "description": "چائے",
+      "quantity": 10.0,
+      "unit_price": 232.5,
+      "line_total": 2325.0
+    },
+    {
+      "description": "نٹ",
+      "quantity": 27.0,
+      "unit_price": 185.25,
+      "line_total": 5001.75
+    },
+    {
+      "description": "چاول",
+      "quantity": 20.0,
+      "unit_price": 250.0,
+      "line_total": 5000.0
+    }
+  ],
+  "subtotal": 27627.5,
+  "tax": 3591.58,
+  "total": 31219.08
+}

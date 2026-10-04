@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2025-7566",
+  "date": "2025-10-02",
+  "line_items": [
+    {
+      "description": "ڈبل ٹیپ",
+      "quantity": 3.0,
+      "unit_price": 148.25,
+      "line_total": 444.75
+    },
+    {
+      "description": "دودھ",
+      "quantity": 6.0,
+      "unit_price": 1043.0,
+      "line_total": 6258.0
+    },
+    {
+      "description": "نٹ",
+      "quantity": 30.0,
+      "unit_price": 89.0,
+      "line_total": 2670.0
+    },
+    {
+      "description": "پینچس",
+      "quantity": 37.0,
+      "unit_price": 663.0,
+      "line_total": 24531.0
+    },
+    {
+      "description": "نٹ",
+      "quantity": 31.0,
+      "unit_price": 131.0,
+      "line_total": 4061.0
+    },
+    {
+      "description": "کیپسول",
+      "quantity": 7.0,
+      "unit_price": 708.0,
+      "line_total": 4956.0
+    }
+  ],
+  "subtotal": 42920.75,
+  "tax": null,
+  "total": 42920.75
+}

@@ -1,0 +1,27 @@
+{
+  "invoice_number": "BL-2025-9273",
+  "date": "2025-11-20",
+  "line_items": [
+    {
+      "description": "بسکٹ",
+      "quantity": 23.0,
+      "unit_price": 1359.0,
+      "line_total": 31257.0
+    },
+    {
+      "description": "چینی",
+      "quantity": 5.0,
+      "unit_price": 703.0,
+      "line_total": 3515.0
+    },
+    {
+      "description": "پیچ",
+      "quantity": 27.0,
+      "unit_price": 221.0,
+      "line_total": 5967.0
+    }
+  ],
+  "subtotal": 40739.0,
+  "tax": 6518.24,
+  "total": 47257.24
+}

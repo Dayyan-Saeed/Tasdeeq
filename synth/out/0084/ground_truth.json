@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2024-0158",
+  "date": "2024-07-01",
+  "line_items": [
+    {
+      "description": "مسک",
+      "quantity": 1.0,
+      "unit_price": 775.0,
+      "line_total": 775.0
+    },
+    {
+      "description": "پیچ",
+      "quantity": 20.0,
+      "unit_price": 273.25,
+      "line_total": 5465.0
+    },
+    {
+      "description": "کیپسول",
+      "quantity": 32.0,
+      "unit_price": 296.0,
+      "line_total": 9472.0
+    },
+    {
+      "description": "پیچ",
+      "quantity": 18.0,
+      "unit_price": 120.75,
+      "line_total": 2173.5
+    },
+    {
+      "description": "ہتھوڑا",
+      "quantity": 24.0,
+      "unit_price": 178.0,
+      "line_total": 4272.0
+    }
+  ],
+  "subtotal": 22157.5,
+  "tax": null,
+  "total": 22157.5
+}

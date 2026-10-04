@@ -1,0 +1,878 @@
+{
+  "generated_at": "2026-10-02T12:15:45+00:00",
+  "engines": [
+    "easyocr",
+    "tesseract"
+  ],
+  "split": "eval",
+  "invoices": 20,
+  "field_accuracy": {
+    "invoice_number": 0.5,
+    "date": 0.7,
+    "subtotal": 0.15,
+    "tax": 0.3,
+    "total": 0.2,
+    "line_items_count": 0.35
+  },
+  "green_fields": 34,
+  "green_precision": 0.588,
+  "wrong_fields": 63,
+  "flag_rate_on_wrong": 0.778,
+  "verifier_accuracy": 0.69,
+  "error_recall_corrupted": 1.0,
+  "corrupted_invoices": 4,
+  "latency_ms": {
+    "easyocr": {
+      "mean": 32117.4,
+      "median": 31161.8,
+      "max": 48922.9
+    },
+    "tesseract": {
+      "mean": 1857.0,
+      "median": 1845.3,
+      "max": 3005.4
+    }
+  },
+  "rows": [
+    {
+      "invoice": "0080",
+      "mode": "corrupted",
+      "printed_total": "۷۰,۵۱۵.۳۹",
+      "gt_total": 70555.39,
+      "fields": {
+        "invoice_number": false,
+        "date": false,
+        "subtotal": false,
+        "tax": false,
+        "total": false,
+        "line_items_count": false
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        },
+        "date": {
+          "status": "amber",
+          "correct": false,
+          "value": "3205-01-02"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": false,
+          "value": null
+        },
+        "total": {
+          "status": "amber",
+          "correct": false,
+          "value": 51.0
+        }
+      },
+      "overall_worst": "red"
+    },
+    {
+      "invoice": "0081",
+      "mode": "mild",
+      "printed_total": null,
+      "gt_total": 72359.27,
+      "fields": {
+        "invoice_number": false,
+        "date": false,
+        "subtotal": false,
+        "tax": false,
+        "total": false,
+        "line_items_count": false
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "amber",
+          "correct": false,
+          "value": "INV-2023-5354"
+        },
+        "date": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": false,
+          "value": null
+        },
+        "total": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        }
+      },
+      "overall_worst": "red"
+    },
+    {
+      "invoice": "0082",
+      "mode": "clean",
+      "printed_total": null,
+      "gt_total": 28395.25,
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "subtotal": true,
+        "tax": true,
+        "total": true,
+        "line_items_count": true
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "amber",
+          "correct": true,
+          "value": "INV-2024-9288"
+        },
+        "date": {
+          "status": "green",
+          "correct": true,
+          "value": "2024-08-15"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": true,
+          "value": 28395.25
+        },
+        "tax": {
+          "status": "green",
+          "correct": true,
+          "value": null
+        },
+        "total": {
+          "status": "amber",
+          "correct": true,
+          "value": 28395.25
+        }
+      },
+      "overall_worst": "amber"
+    },
+    {
+      "invoice": "0083",
+      "mode": "corrupted",
+      "printed_total": "38,180.72",
+      "gt_total": 32180.72,
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "subtotal": false,
+        "tax": false,
+        "total": false,
+        "line_items_count": false
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "amber",
+          "correct": true,
+          "value": "INV-2025-0863"
+        },
+        "date": {
+          "status": "green",
+          "correct": true,
+          "value": "2025-02-19"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": false,
+          "value": null
+        },
+        "total": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        }
+      },
+      "overall_worst": "red"
+    },
+    {
+      "invoice": "0084",
+      "mode": "clean",
+      "printed_total": null,
+      "gt_total": 22157.5,
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "subtotal": false,
+        "tax": true,
+        "total": false,
+        "line_items_count": true
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "green",
+          "correct": true,
+          "value": "INV-2024-0158"
+        },
+        "date": {
+          "status": "green",
+          "correct": true,
+          "value": "2024-07-01"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": true,
+          "value": null
+        },
+        "total": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        }
+      },
+      "overall_worst": "red"
+    },
+    {
+      "invoice": "0085",
+      "mode": "heavy",
+      "printed_total": null,
+      "gt_total": 31219.08,
+      "fields": {
+        "invoice_number": false,
+        "date": false,
+        "subtotal": false,
+        "tax": false,
+        "total": false,
+        "line_items_count": true
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "amber",
+          "correct": false,
+          "value": "1!7/-2024-"
+        },
+        "date": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": false,
+          "value": null
+        },
+        "total": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        }
+      },
+      "overall_worst": "red"
+    },
+    {
+      "invoice": "0086",
+      "mode": "clean",
+      "printed_total": null,
+      "gt_total": 39032.25,
+      "fields": {
+        "invoice_number": false,
+        "date": false,
+        "subtotal": false,
+        "tax": true,
+        "total": false,
+        "line_items_count": false
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        },
+        "date": {
+          "status": "amber",
+          "correct": false,
+          "value": "2025-01-03"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": true,
+          "value": null
+        },
+        "total": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        }
+      },
+      "overall_worst": "red"
+    },
+    {
+      "invoice": "0087",
+      "mode": "heavy",
+      "printed_total": null,
+      "gt_total": 81118.18,
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "subtotal": true,
+        "tax": false,
+        "total": false,
+        "line_items_count": false
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "green",
+          "correct": true,
+          "value": "INV-2025-9403"
+        },
+        "date": {
+          "status": "green",
+          "correct": true,
+          "value": "2025-02-02"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": true,
+          "value": 71786.0
+        },
+        "tax": {
+          "status": "green",
+          "correct": false,
+          "value": null
+        },
+        "total": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        }
+      },
+      "overall_worst": "red"
+    },
+    {
+      "invoice": "0088",
+      "mode": "clean",
+      "printed_total": null,
+      "gt_total": 50981.93,
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "subtotal": false,
+        "tax": false,
+        "total": true,
+        "line_items_count": true
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "green",
+          "correct": true,
+          "value": "INV-2024-4603"
+        },
+        "date": {
+          "status": "green",
+          "correct": true,
+          "value": "2024-01-11"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": false,
+          "value": null
+        },
+        "total": {
+          "status": "amber",
+          "correct": true,
+          "value": 50981.93
+        }
+      },
+      "overall_worst": "amber"
+    },
+    {
+      "invoice": "0089",
+      "mode": "corrupted",
+      "printed_total": "16,684.76",
+      "gt_total": 16684.73,
+      "fields": {
+        "invoice_number": false,
+        "date": true,
+        "subtotal": false,
+        "tax": false,
+        "total": false,
+        "line_items_count": false
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "amber",
+          "correct": false,
+          "value": "INV-"
+        },
+        "date": {
+          "status": "green",
+          "correct": true,
+          "value": "2024-12-23"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": false,
+          "value": null
+        },
+        "total": {
+          "status": "amber",
+          "correct": false,
+          "value": 16684.76
+        }
+      },
+      "overall_worst": "amber"
+    },
+    {
+      "invoice": "0090",
+      "mode": "clean",
+      "printed_total": null,
+      "gt_total": 100301.91,
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "subtotal": false,
+        "tax": false,
+        "total": false,
+        "line_items_count": false
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "amber",
+          "correct": true,
+          "value": "INV-2024-1656"
+        },
+        "date": {
+          "status": "green",
+          "correct": true,
+          "value": "2024-06-23"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": false,
+          "value": null
+        },
+        "total": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        }
+      },
+      "overall_worst": "red"
+    },
+    {
+      "invoice": "0091",
+      "mode": "mild",
+      "printed_total": null,
+      "gt_total": 35434.75,
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "subtotal": true,
+        "tax": true,
+        "total": true,
+        "line_items_count": true
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "green",
+          "correct": true,
+          "value": "INV-2025-8130"
+        },
+        "date": {
+          "status": "amber",
+          "correct": true,
+          "value": "2025-10-08"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": true,
+          "value": 35434.75
+        },
+        "tax": {
+          "status": "green",
+          "correct": true,
+          "value": null
+        },
+        "total": {
+          "status": "amber",
+          "correct": true,
+          "value": 35434.75
+        }
+      },
+      "overall_worst": "amber"
+    },
+    {
+      "invoice": "0092",
+      "mode": "mild",
+      "printed_total": null,
+      "gt_total": 6374.75,
+      "fields": {
+        "invoice_number": false,
+        "date": true,
+        "subtotal": false,
+        "tax": true,
+        "total": false,
+        "line_items_count": true
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        },
+        "date": {
+          "status": "amber",
+          "correct": true,
+          "value": "2025-02-27"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": true,
+          "value": null
+        },
+        "total": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        }
+      },
+      "overall_worst": "red"
+    },
+    {
+      "invoice": "0093",
+      "mode": "mild",
+      "printed_total": null,
+      "gt_total": 23184.5,
+      "fields": {
+        "invoice_number": false,
+        "date": true,
+        "subtotal": false,
+        "tax": true,
+        "total": false,
+        "line_items_count": false
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        },
+        "date": {
+          "status": "amber",
+          "correct": true,
+          "value": "2025-12-18"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": 23182050.0
+        },
+        "tax": {
+          "status": "green",
+          "correct": true,
+          "value": null
+        },
+        "total": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        }
+      },
+      "overall_worst": "red"
+    },
+    {
+      "invoice": "0094",
+      "mode": "clean",
+      "printed_total": null,
+      "gt_total": 53363.99,
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "subtotal": false,
+        "tax": false,
+        "total": true,
+        "line_items_count": false
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "amber",
+          "correct": true,
+          "value": "INV-2025-4316"
+        },
+        "date": {
+          "status": "green",
+          "correct": true,
+          "value": "2025-03-15"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": false,
+          "value": null
+        },
+        "total": {
+          "status": "amber",
+          "correct": true,
+          "value": 53363.99
+        }
+      },
+      "overall_worst": "amber"
+    },
+    {
+      "invoice": "0095",
+      "mode": "mild",
+      "printed_total": null,
+      "gt_total": 69730.5,
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "subtotal": false,
+        "tax": false,
+        "total": false,
+        "line_items_count": true
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "green",
+          "correct": true,
+          "value": "INV-2024-3472"
+        },
+        "date": {
+          "status": "green",
+          "correct": true,
+          "value": "2024-08-06"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": false,
+          "value": null
+        },
+        "total": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        }
+      },
+      "overall_worst": "red"
+    },
+    {
+      "invoice": "0096",
+      "mode": "heavy",
+      "printed_total": null,
+      "gt_total": 43939.06,
+      "fields": {
+        "invoice_number": false,
+        "date": false,
+        "subtotal": false,
+        "tax": false,
+        "total": false,
+        "line_items_count": false
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        },
+        "date": {
+          "status": "amber",
+          "correct": false,
+          "value": "2023-02-19"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": false,
+          "value": null
+        },
+        "total": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        }
+      },
+      "overall_worst": "red"
+    },
+    {
+      "invoice": "0097",
+      "mode": "clean",
+      "printed_total": null,
+      "gt_total": 29905.45,
+      "fields": {
+        "invoice_number": false,
+        "date": false,
+        "subtotal": false,
+        "tax": false,
+        "total": false,
+        "line_items_count": false
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        },
+        "date": {
+          "status": "amber",
+          "correct": false,
+          "value": "2024-02-05"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": 260265.0
+        },
+        "tax": {
+          "status": "green",
+          "correct": false,
+          "value": null
+        },
+        "total": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        }
+      },
+      "overall_worst": "red"
+    },
+    {
+      "invoice": "0098",
+      "mode": "clean",
+      "printed_total": null,
+      "gt_total": 68448.34,
+      "fields": {
+        "invoice_number": false,
+        "date": true,
+        "subtotal": false,
+        "tax": false,
+        "total": false,
+        "line_items_count": false
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        },
+        "date": {
+          "status": "amber",
+          "correct": true,
+          "value": "2025-08-20"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": false,
+          "value": null
+        },
+        "total": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        }
+      },
+      "overall_worst": "red"
+    },
+    {
+      "invoice": "0099",
+      "mode": "corrupted",
+      "printed_total": "۷۴,۴۱۰.۵۲",
+      "gt_total": 74910.52,
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "subtotal": false,
+        "tax": false,
+        "total": false,
+        "line_items_count": false
+      },
+      "verdicts": {
+        "invoice_number": {
+          "status": "amber",
+          "correct": true,
+          "value": "INV-2025-6169"
+        },
+        "date": {
+          "status": "amber",
+          "correct": true,
+          "value": "2025-12-23"
+        },
+        "subtotal": {
+          "status": "amber",
+          "correct": false,
+          "value": null
+        },
+        "tax": {
+          "status": "green",
+          "correct": false,
+          "value": null
+        },
+        "total": {
+          "status": "red",
+          "correct": false,
+          "value": null
+        }
+      },
+      "overall_worst": "red"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2024-8805",
+  "date": "2024-10-13",
+  "line_items": [
+    {
+      "description": "گھی",
+      "quantity": 36.0,
+      "unit_price": 149.25,
+      "line_total": 5373.0
+    },
+    {
+      "description": "آٹا",
+      "quantity": 21.0,
+      "unit_price": 1273.0,
+      "line_total": 26733.0
+    },
+    {
+      "description": "دال مسور",
+      "quantity": 23.0,
+      "unit_price": 997.0,
+      "line_total": 22931.0
+    },
+    {
+      "description": "پائپ",
+      "quantity": 13.0,
+      "unit_price": 1155.0,
+      "line_total": 15015.0
+    }
+  ],
+  "subtotal": 70052.0,
+  "tax": 9106.76,
+  "total": 79158.76
+}

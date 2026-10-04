@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2024-2497",
+  "date": "2024-01-08",
+  "line_items": [
+    {
+      "description": "ہتھوڑا",
+      "quantity": 9.0,
+      "unit_price": 239.0,
+      "line_total": 2151.0
+    },
+    {
+      "description": "بینڈ اسٹریپ",
+      "quantity": 14.0,
+      "unit_price": 529.0,
+      "line_total": 7406.0
+    },
+    {
+      "description": "کیپسول",
+      "quantity": 24.0,
+      "unit_price": 312.75,
+      "line_total": 7506.0
+    },
+    {
+      "description": "ٹماٹر",
+      "quantity": 8.0,
+      "unit_price": 340.0,
+      "line_total": 2720.0
+    }
+  ],
+  "subtotal": 19783.0,
+  "tax": null,
+  "total": 19783.0
+}

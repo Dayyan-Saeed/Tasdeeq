@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2025-1740",
+  "date": "2025-07-05",
+  "line_items": [
+    {
+      "description": "نٹ",
+      "quantity": 16.0,
+      "unit_price": 552.0,
+      "line_total": 8832.0
+    },
+    {
+      "description": "دودھ",
+      "quantity": 16.0,
+      "unit_price": 27.5,
+      "line_total": 440.0
+    },
+    {
+      "description": "ٹیبلٹ",
+      "quantity": 40.0,
+      "unit_price": 332.0,
+      "line_total": 13280.0
+    },
+    {
+      "description": "چائے",
+      "quantity": 21.0,
+      "unit_price": 1481.0,
+      "line_total": 31101.0
+    },
+    {
+      "description": "پائپ",
+      "quantity": 13.0,
+      "unit_price": 1025.0,
+      "line_total": 13325.0
+    }
+  ],
+  "subtotal": 66978.0,
+  "tax": 11386.26,
+  "total": 78364.26
+}

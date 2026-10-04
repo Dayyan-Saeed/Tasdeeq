@@ -1,0 +1,27 @@
+{
+  "invoice_number": "BL-2024-1109",
+  "date": "2024-11-22",
+  "line_items": [
+    {
+      "description": "ڈبل ٹیپ",
+      "quantity": 25.0,
+      "unit_price": 94.0,
+      "line_total": 2350.0
+    },
+    {
+      "description": "شربت",
+      "quantity": 25.0,
+      "unit_price": 524.0,
+      "line_total": 13100.0
+    },
+    {
+      "description": "بسکٹ",
+      "quantity": 2.0,
+      "unit_price": 143.0,
+      "line_total": 286.0
+    }
+  ],
+  "subtotal": 15736.0,
+  "tax": 2045.68,
+  "total": 17781.68
+}

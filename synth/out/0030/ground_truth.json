@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2024-1324",
+  "date": "2024-08-23",
+  "line_items": [
+    {
+      "description": "پینچس",
+      "quantity": 39.0,
+      "unit_price": 66.5,
+      "line_total": 2593.5
+    },
+    {
+      "description": "دودھ",
+      "quantity": 38.0,
+      "unit_price": 670.0,
+      "line_total": 25460.0
+    },
+    {
+      "description": "پائپ",
+      "quantity": 39.0,
+      "unit_price": 934.0,
+      "line_total": 36426.0
+    },
+    {
+      "description": "دال چنا",
+      "quantity": 39.0,
+      "unit_price": 1442.0,
+      "line_total": 56238.0
+    },
+    {
+      "description": "پیچ",
+      "quantity": 36.0,
+      "unit_price": 445.0,
+      "line_total": 16020.0
+    }
+  ],
+  "subtotal": 136737.5,
+  "tax": 23245.38,
+  "total": 159982.88
+}

@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2024-9174",
+  "date": "2024-11-08",
+  "line_items": [
+    {
+      "description": "مسک",
+      "quantity": 40.0,
+      "unit_price": 489.0,
+      "line_total": 19560.0
+    },
+    {
+      "description": "آئینہ",
+      "quantity": 11.0,
+      "unit_price": 367.0,
+      "line_total": 4037.0
+    },
+    {
+      "description": "کریم",
+      "quantity": 27.0,
+      "unit_price": 379.5,
+      "line_total": 10246.5
+    },
+    {
+      "description": "پیاز",
+      "quantity": 27.0,
+      "unit_price": 513.0,
+      "line_total": 13851.0
+    },
+    {
+      "description": "دودھ",
+      "quantity": 11.0,
+      "unit_price": 226.0,
+      "line_total": 2486.0
+    },
+    {
+      "description": "تیل",
+      "quantity": 3.0,
+      "unit_price": 460.0,
+      "line_total": 1380.0
+    }
+  ],
+  "subtotal": 51560.5,
+  "tax": 8765.28,
+  "total": 60325.78
+}

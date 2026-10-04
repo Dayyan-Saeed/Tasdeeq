@@ -1,0 +1,39 @@
+{
+  "invoice_number": "BL-2025-0198",
+  "date": "2025-11-20",
+  "line_items": [
+    {
+      "description": "بسکٹ",
+      "quantity": 21.0,
+      "unit_price": 293.5,
+      "line_total": 6163.5
+    },
+    {
+      "description": "بینڈ اسٹریپ",
+      "quantity": 35.0,
+      "unit_price": 969.0,
+      "line_total": 33915.0
+    },
+    {
+      "description": "پیاز",
+      "quantity": 5.0,
+      "unit_price": 36.25,
+      "line_total": 181.25
+    },
+    {
+      "description": "پائپ",
+      "quantity": 14.0,
+      "unit_price": 32.5,
+      "line_total": 455.0
+    },
+    {
+      "description": "بینڈ اسٹریپ",
+      "quantity": 19.0,
+      "unit_price": 1031.0,
+      "line_total": 19589.0
+    }
+  ],
+  "subtotal": 60303.75,
+  "tax": 10251.64,
+  "total": 70555.39
+}

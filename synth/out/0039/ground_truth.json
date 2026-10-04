@@ -1,0 +1,39 @@
+{
+  "invoice_number": "INV-2024-7278",
+  "date": "2024-07-12",
+  "line_items": [
+    {
+      "description": "کریم",
+      "quantity": 29.0,
+      "unit_price": 124.5,
+      "line_total": 3610.5
+    },
+    {
+      "description": "بسکٹ",
+      "quantity": 31.0,
+      "unit_price": 402.0,
+      "line_total": 12462.0
+    },
+    {
+      "description": "بینڈ اسٹریپ",
+      "quantity": 37.0,
+      "unit_price": 950.0,
+      "line_total": 35150.0
+    },
+    {
+      "description": "پائپ",
+      "quantity": 19.0,
+      "unit_price": 1034.0,
+      "line_total": 19646.0
+    },
+    {
+      "description": "کریم",
+      "quantity": 27.0,
+      "unit_price": 413.0,
+      "line_total": 11151.0
+    }
+  ],
+  "subtotal": 82019.5,
+  "tax": null,
+  "total": 82019.5
+}

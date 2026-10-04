@@ -1,0 +1,39 @@
+{
+  "invoice_number": "BL-2025-4347",
+  "date": "2025-12-18",
+  "line_items": [
+    {
+      "description": "ہتھوڑا",
+      "quantity": 20.0,
+      "unit_price": 27.5,
+      "line_total": 550.0
+    },
+    {
+      "description": "آٹا",
+      "quantity": 36.0,
+      "unit_price": 319.0,
+      "line_total": 11484.0
+    },
+    {
+      "description": "ٹیبلٹ",
+      "quantity": 24.0,
+      "unit_price": 46.5,
+      "line_total": 1116.0
+    },
+    {
+      "description": "چینی",
+      "quantity": 39.0,
+      "unit_price": 203.0,
+      "line_total": 7917.0
+    },
+    {
+      "description": "وال ویش",
+      "quantity": 14.0,
+      "unit_price": 151.25,
+      "line_total": 2117.5
+    }
+  ],
+  "subtotal": 23184.5,
+  "tax": null,
+  "total": 23184.5
+}

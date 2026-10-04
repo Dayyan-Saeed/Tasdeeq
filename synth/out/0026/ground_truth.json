@@ -1,0 +1,39 @@
+{
+  "invoice_number": "BL-2025-1477",
+  "date": "2025-08-02",
+  "line_items": [
+    {
+      "description": "تیل",
+      "quantity": 21.0,
+      "unit_price": 364.0,
+      "line_total": 7644.0
+    },
+    {
+      "description": "پائپ",
+      "quantity": 9.0,
+      "unit_price": 754.0,
+      "line_total": 6786.0
+    },
+    {
+      "description": "پیاز",
+      "quantity": 33.0,
+      "unit_price": 341.0,
+      "line_total": 11253.0
+    },
+    {
+      "description": "شربت",
+      "quantity": 31.0,
+      "unit_price": 609.0,
+      "line_total": 18879.0
+    },
+    {
+      "description": "چاول",
+      "quantity": 22.0,
+      "unit_price": 964.0,
+      "line_total": 21208.0
+    }
+  ],
+  "subtotal": 65770.0,
+  "tax": 8550.1,
+  "total": 74320.1
+}

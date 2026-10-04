@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2024-2329",
+  "date": "2024-12-23",
+  "line_items": [
+    {
+      "description": "وال ویش",
+      "quantity": 32.0,
+      "unit_price": 364.0,
+      "line_total": 11648.0
+    },
+    {
+      "description": "پتاتس",
+      "quantity": 3.0,
+      "unit_price": 121.75,
+      "line_total": 365.25
+    },
+    {
+      "description": "چائے",
+      "quantity": 2.0,
+      "unit_price": 6.0,
+      "line_total": 12.0
+    },
+    {
+      "description": "کیپسول",
+      "quantity": 40.0,
+      "unit_price": 68.5,
+      "line_total": 2740.0
+    }
+  ],
+  "subtotal": 14765.25,
+  "tax": 1919.48,
+  "total": 16684.73
+}

@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2024-8411",
+  "date": "2024-05-03",
+  "line_items": [
+    {
+      "description": "آئینہ",
+      "quantity": 28.0,
+      "unit_price": 115.5,
+      "line_total": 3234.0
+    },
+    {
+      "description": "آٹا",
+      "quantity": 23.0,
+      "unit_price": 854.0,
+      "line_total": 19642.0
+    },
+    {
+      "description": "دودھ",
+      "quantity": 26.0,
+      "unit_price": 487.0,
+      "line_total": 12662.0
+    },
+    {
+      "description": "چائے",
+      "quantity": 6.0,
+      "unit_price": 62.0,
+      "line_total": 372.0
+    }
+  ],
+  "subtotal": 35910.0,
+  "tax": null,
+  "total": 35910.0
+}

@@ -1,0 +1,39 @@
+{
+  "invoice_number": "BL-2024-8776",
+  "date": "2024-02-19",
+  "line_items": [
+    {
+      "description": "ہتھوڑا",
+      "quantity": 27.0,
+      "unit_price": 337.5,
+      "line_total": 9112.5
+    },
+    {
+      "description": "پیاز",
+      "quantity": 39.0,
+      "unit_price": 357.0,
+      "line_total": 13923.0
+    },
+    {
+      "description": "کیپسول",
+      "quantity": 26.0,
+      "unit_price": 313.75,
+      "line_total": 8157.5
+    },
+    {
+      "description": "پتاتس",
+      "quantity": 26.0,
+      "unit_price": 171.75,
+      "line_total": 4465.5
+    },
+    {
+      "description": "آئینہ",
+      "quantity": 4.0,
+      "unit_price": 555.0,
+      "line_total": 2220.0
+    }
+  ],
+  "subtotal": 37878.5,
+  "tax": 6060.56,
+  "total": 43939.06
+}

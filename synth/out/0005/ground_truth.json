@@ -1,0 +1,45 @@
+{
+  "invoice_number": "INV-2025-4352",
+  "date": "2025-05-07",
+  "line_items": [
+    {
+      "description": "نٹ",
+      "quantity": 9.0,
+      "unit_price": 619.0,
+      "line_total": 5571.0
+    },
+    {
+      "description": "چینی",
+      "quantity": 21.0,
+      "unit_price": 153.0,
+      "line_total": 3213.0
+    },
+    {
+      "description": "دال چنا",
+      "quantity": 30.0,
+      "unit_price": 1158.0,
+      "line_total": 34740.0
+    },
+    {
+      "description": "پیاز",
+      "quantity": 5.0,
+      "unit_price": 1041.0,
+      "line_total": 5205.0
+    },
+    {
+      "description": "آئینہ",
+      "quantity": 9.0,
+      "unit_price": 145.0,
+      "line_total": 1305.0
+    },
+    {
+      "description": "نٹ",
+      "quantity": 16.0,
+      "unit_price": 328.0,
+      "line_total": 5248.0
+    }
+  ],
+  "subtotal": 55282.0,
+  "tax": null,
+  "total": 55282.0
+}

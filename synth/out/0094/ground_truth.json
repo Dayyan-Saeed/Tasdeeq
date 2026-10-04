@@ -1,0 +1,33 @@
+{
+  "invoice_number": "INV-2025-4316",
+  "date": "2025-03-15",
+  "line_items": [
+    {
+      "description": "بینڈ اسٹریپ",
+      "quantity": 18.0,
+      "unit_price": 314.0,
+      "line_total": 5652.0
+    },
+    {
+      "description": "پیچ",
+      "quantity": 7.0,
+      "unit_price": 178.75,
+      "line_total": 1251.25
+    },
+    {
+      "description": "ٹیبلٹ",
+      "quantity": 38.0,
+      "unit_price": 33.5,
+      "line_total": 1273.0
+    },
+    {
+      "description": "کھڑا",
+      "quantity": 34.0,
+      "unit_price": 1101.0,
+      "line_total": 37434.0
+    }
+  ],
+  "subtotal": 45610.25,
+  "tax": 7753.74,
+  "total": 53363.99
+}
